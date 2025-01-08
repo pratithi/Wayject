@@ -35,7 +35,7 @@ class Spot:
 		return self.color == YELLOW
 
 	def is_open(self):
-		return self.color == 
+		return self.color == GREEN
 
 	def is_barrier(self):
 		return self.color == BLACK
